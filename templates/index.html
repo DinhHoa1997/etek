@@ -1,0 +1,884 @@
+<!doctype html>
+<html lang="vi" xmlns="http://www.w3.org/1999/xhtml"  xml:lang="vi">
+
+
+    <head>
+        <meta charset="utf-8" />
+        <title>Page-name</title>
+        <meta name="viewport"
+              content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0, user-scalable=yes" />
+        <meta name="theme-color" content="#0099ff" />
+
+        <meta http-equiv="Content-Language" content="VN" />
+        <meta name="description" content="Page-name" />
+        <meta name="keywords" content="" />
+        <meta property="og:url" name="og:url" content="" data-app/>
+        <meta property="og:type" name="og:type" content="website" data-app/>
+        <meta property="og:description" name="og:description" content="Page-name" data-app/>
+        <meta property="og:title" name="og:title" content="Page-name" data-app/>
+
+        <meta property="og:image" name="og:image" content="/uploaded/logo/logo.png" data-app>
+        <meta property="og:image:alt" name="og:image:alt" content="/uploaded/logo/logo.png" data-app>
+        <link href="/favicon.ico" rel="shortcut icon" />        
+
+     
+        <link rel="stylesheet" type="text/css" href="/css/style.css" />
+
+        <link rel="stylesheet" type="text/css" href="/css/grid.css" />
+        <link rel="stylesheet" type="text/css" href="/css/responsive.css" />
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.2.2/css/swiper.min.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" type="text/css" href="/css/fontawesome-5.12.1/css/all.min.css" />
+        <link rel="stylesheet" type="text/css" href="/css/jquery.mmenu.all.css" />
+        <link rel="stylesheet" href="/css/jquery-ui.css" />
+
+        <link rel="stylesheet" href="/css/jquery.fancybox.css" />
+        <link rel="stylesheet" href="/css/hover.css" />
+        <script src="/js/jquery-1.10.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.2.2/js/swiper.min.js"></script>
+
+        
+
+        
+
+    </head>    
+
+
+<body>
+
+
+
+<div id="page">
+
+
+    <!-- header pc -->
+    <header class="header hide-on-pad hide-on-tab">
+      <div class="grid">
+        
+        <div class="flex-container align-center">
+            <div class="cell-1-5">
+              <div class="logo">
+                <a href="/">
+                  <img src="/uploaded/logo/logo.png" alt="LogoSite"
+                    style="max-width:100%;"></a>
+                </div>
+            </div>
+           <div class="cell-4-5">
+            <div class="menubar">
+              <ul class="nav  hide-on-mobile">
+                 
+                  <li class=" ">
+                    <a href="/" class="active">
+                          <span style="background-image:url()"> Giới thiệu</span>
+                            </a>
+                      <ul class="submnu1" style="display: none;">
+                        <li class="">
+                          <a href="/phat-trien-dien-nang/">Về chúng tôi</a>
+                        </li>
+                        <li class="">
+                          <a href="/dau-tu-bat-dong-san/">Lịch sử hình thành</a>
+                        </li>
+                    </ul>
+                  </li>
+                  <li class=" ">
+                    <a href="/" class=""><span style="background-image:url()"> Lĩnh vực hoạt động    
+                  </li>
+                  <li class=" ">
+                    <a href="/" class=""><span style="background-image:url()">Dự án
+                  </li>
+                  <li class=" ">
+                    <a href="/" class=""><span style="background-image:url()"> Tin tức
+                  </li>
+                  <li class=" ">
+                    <a href="/" class=""><span style="background-image:url()"> Khách hàng
+                  </li>
+                  <li class=" ">
+                    <a href="/" class=""><span style="background-image:url()"> Tuyển dụng
+                  <li class=" ">
+                    <a href="/" class=""><span style="background-image:url()"> Liên hệ
+                  </li> 
+              </ul>
+              <div class="icon-search">
+                <i class="fa fa-search search-icon" aria-hidden="true"></i> 
+                <div class="search-pc" style="display: none;">
+                    <form action="/search/" method="get" id="searchformtab">
+                        <input name="qr" id="qr_search" class="kw-mobile" placeholder="Tìm kiếm" type="text">
+                            <a href="#" class="closeX" onclick="$('.search-pc').hide(); return false;">✕</a>        
+                    </form>
+                </div>
+                <script type="text/javascript">
+
+                    $(".submit-search-pc").click(function () {
+                        if ($("#qr_search").val() != "")
+                            $('#searchformtab').submit();
+                        return false;
+
+                    });
+
+                    $(document).ready(function () {
+                        $(".search-icon").click(function () {
+                            $(".search-pc").stop().slideToggle("fast");
+                            return false;
+                        });
+                    });
+                </script>  	
+                <div class="c"></div>
+            </div>
+              <div class="lang">
+                <a href="#" class="vi">Vi</a> 
+            </div>
+           </div>
+          </div>
+        </div>
+      <div class="c"></div>
+    </header>
+    <!-- end header pc -->
+    <header class="header hide-on-pc error">
+      <div class="mobile-bar hide-on-pc">
+        <div class="grid">
+            <div class="flex-container align-center">
+                <div class="cell-1-3">
+                   
+                    <a class="menu-mobile" href="#menu">
+                      <i class="fas fa-bars"></i>
+                   </a>
+                   
+                </div>
+                <div class="cell-1-3">
+                 
+                  <div class="logo">
+                      <a href="/">
+                        <img src="/uploaded/logo/Logo_full 1.png" alt="Logo web" style="max-width: 100%; margin: 0 auto" />
+                      </a>
+                  </div>
+                 
+              </div>
+            
+                <div class="icon-search search-mb" >
+                  <i class="fa fa-search search-iconmb" aria-hidden="true"></i>
+                    <div class="frm-search-mb" style="">
+                     <form action="/search/" method="get" id="searchformtab">
+                        <input name="qr" class="kw-mobile" placeholder="Tìm kiếm " type="text">
+                        <a href="#" class="submit-search-pc" onClick="$('#searchformtab').submit(); return false;"> 
+                          <i class="fa fa-search" aria-hidden="true"></i> </a>
+  
+                        <a href="#" class="closeX" onClick="$('.frm-search-mb').hide(); return false;">&#10005;</a>        
+                      </form>
+                    </div> 
+                    
+                    <script>
+                      $(document).ready(function () {
+                      $(".search-iconmb").click(function () {
+                        $(".frm-search-mb").stop().slideToggle("fast");
+                        return false;
+                      });
+                      });
+                    </script>  	
+                   </div>
+               
+            </div>
+            </div>
+        </div>
+        <div class="c"></div>
+      
+    </header>
+    <!-- content -->
+    <div class="content">
+      
+      <!-- slideshow -->
+      <div class="swiper-container" id="slide_home">
+    
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="slidehome">
+              <img class="hide-on-mobile" src="/uploaded/slideshow/slide-01.png" alt="" style="width: 100%" />
+              <!-- <div class="slidehome-content">
+                <div class="grid">
+                    <div class="flex-container">
+                      <div class="cell-1-2 tab-cell-1-1">
+                        <h2>Lorem ipsum placeholder
+                          text commonly used</h2>
+                          <div class="c10"></div>
+                          <div class="text-line-2">
+                            Lorem ipsum is placeholder text commonly used
+                            in the graphic, print, and publishing industries
+                          </div>
+                            <div class="c30"></div>
+                              <a href="#" class="btn btn-xemthem">Xem chi tiết</a>
+                          
+                      </div>
+                    </div>
+                </div>
+            </div> -->
+            </div>
+        </div>
+        
+      
+      </div>
+
+      </div>
+      <script>
+        $(function () {
+          var swiper_slide_home = new Swiper("#slide_home", {
+            loop: true,
+            slidesPerView: 1,
+            autoHeight:true,
+            autoplay: {
+              simulateTouch: true,
+              delay: 5000000,
+              disableOnInteraction: false,
+            },
+            spaceBetween: 0,
+            // navigation: {
+            //   nextEl: ".swiper-button-next",
+            //   prevEl: ".swiper-button-prev",
+            // },
+            pagination: {
+              el: ".swiper-pagination",
+              clickable: true,
+            },
+            speed: 500,
+            spaceBetween: 0,
+          });
+
+          $("#slide_home").on("mouseover", function () {
+            swiper_slide_home.autoplay.stop();
+          });
+          $("#slide_home").on("mouseout", function () {
+            swiper_slide_home.autoplay.start();
+          });
+        });
+      </script>
+      <div class="homenewsupdate-wrapper">
+          <div class="grid">  
+              <div class="flex-container">
+                  <div class="cell-1-5 tab-cell-1-1">
+                      <div class="homnewsupdate-title">
+                        <i class="fa-regular fa-newspaper"></i>    Tin mới nhất
+                      </div>
+                  </div>
+                  <div class="cell-4-5 tab-cell-1-1">
+                    <div class="swiper-container slider-homenews">
+                      <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                          <div class="homenews-item">
+                           
+                            <div class="homenews-item__content">
+                              <h2 class="homenews-item__name"> 
+                                <a href="#" class="text-line-1">
+                                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus, facilis explicabo facere culpa, quibusdam quidem fuga possimus nam numquam quis quam. Iste earum eveniet nobis rerum quibusdam sunt necessitatibus voluptatem.
+                                </a>
+                                
+                              </h2>
+                              
+                              
+                            </div>
+                          </div>
+                        </div>
+                      
+                 
+                        
+                      </div>
+                    
+                    </div>
+                    <div class="slide-btn-next homenews-button-next"><i class="fas fa-long-arrow-alt-right"></i></div>
+                    <script>
+                      $(function () {
+                        var slideproduct = new Swiper(".slider-homenews", {
+                    
+                        loop: true,
+                        
+                      
+                        spaceBetween: 20,
+                        autoplay:true,
+                        pagination: {
+                          
+                          clickable: true,
+                        },
+                        navigation: {
+                                nextEl: '.homenews-button-next',
+                              
+                            },
+                        breakpoints: {
+                              // when window width is >= 320px
+                              320: {
+                                slidesPerView: 1,
+                                spaceBetween: 20
+                              },
+                              // when window width is >= 480px
+                              768: {
+                                slidesPerView:1,
+                                spaceBetween: 30
+                              },
+                              // when window width is >= 640px
+                              1040: {
+                                slidesPerView: 1,
+                                spaceBetween: 40
+                              },
+                              1600: {
+                                slidesPerView: 1,
+                                spaceBetween: 20
+                              }
+                            }
+                          })
+                      
+              
+                      });
+                    </script>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="homeinfo-wrapper">
+          <div class="c30"></div>
+          <div class="c20 hide-on-mobile"></div>
+             <div class="grid">
+              <div class="flex-container">
+                <div class="cell-1-3 tab-cell-1-1">
+                    <div class="homecat-title">
+                        Về chúng tôi
+                    </div>
+                    <div class="c30"></div>
+                    <div class="homeinfo-content">
+                      ETEK – Công ty Cổ phần Giải pháp tự động hóa ETEK là đơn vị tiên phong cung cấp giải pháp tự động hóa tổng thể trong lĩnh vực tự động hóa, dây chuyền sản xuất, thiết bị đào tạo, thiết bị dân sinh. Với 16 năm kinh nghiệm, ETEK không ngừng phát triển cùng đội ngũ kỹ sư có kinh nghiệm, chuyên môn cao, đưa ra những giải pháp tự động hóa thông minh, chất lượng và đem lại lòng tin và khẳng định vị thế nhà cung cấp giải pháp tự động hóa hàng đầu Việt Nam.
+                    </div>
+                    <div class="c30"></div>
+                    <div class="">
+                        <a href="#" class="btn-xemthem">Xem thêm <i class="fas fa-angle-right"></i></a>
+                    </div>
+                </div>
+                <div class="cell-2-3 tab-cell-1-1">
+                    <div class="flex-container">
+                        <div class="cell-1-3 tab-cell-1-1 homenumber-item"> 
+                          <div class="">
+                            <div class="c30"></div>
+                            <span class="count">
+                              16 +
+                            </span>
+                            <div class="c5"></div>
+                            <div class="homenumber-name">
+                                Năm kinh nghiệm
+                            </div>
+                            <div class="c30"></div>
+                            <div class="homeinfo-intro">
+                              ETEK là đơn vị 16 năm kinh nghiệm cung cấp giải pháp tự động hóa tổng thể
+                            </div>
+                            <div class="c30"></div>
+                          </div>
+                        </div>
+                        <div class="cell-1-3 tab-cell-1-1 homenumber-item"> 
+                          <div class="">
+                            <div class="c30"></div>
+                            <span class="count">
+                              03 +
+                            </span>
+                            <div class="c5"></div>
+                            <div class="homenumber-name">
+                                Quốc gia
+                            </div>
+                            <div class="c30"></div>
+                            <div class="homeinfo-intro">
+                              Sản phẩm dịch vụ đã có mặt tại Việt Nam, Indonesia và 
+                              Philipines
+                            </div>
+                            <div class="c30"></div>
+                          </div>
+                        </div>
+                        <div class="cell-1-3 tab-cell-1-1 homenumber-item"> 
+                          <div class="">
+                            <div class="c30"></div>
+                            <span class="count">
+                              02 +
+                            </span>
+                            <div class="c5"></div>
+                            <div class="homenumber-name">
+                              Chi nhánh
+                            </div>
+                            <div class="c30"></div>
+                            <div class="homeinfo-intro">
+                              Văn phòng đại diện của ETEK tại Hà Nội và TP Hồ Chí Minh
+
+                            </div>
+                            <div class="c30"></div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+             </div>
+          <div class="c30"></div>
+          <div class="c20 hide-on-mobile"></div>
+          
+      </div>
+      <div class="homeservice-wrapper">
+        <div class="c30"></div>
+        <div class="c20 hide-on-mobile"></div>
+        <div class="grid">
+        <div class="homecat-title-sm">
+            Tiên phong
+        </div>
+        <div class="homecat-title">
+            Giải pháp tự động hóa
+        </div>
+        <div class="c30"></div>
+        <div class="flex-container">
+          <div class="cell-1-2 tab-cell-1-1">
+            <div class="homeservice-item">
+                  <div class="homeservice-item-image">
+                      <a href="#"> <img style="height: 260px; width:100%; object-fit:cover" src="/uploaded/dichvu/item1.png" alt=""></a>
+                  </div>
+                  <div class="homeservice-item-content">
+                      <h3 class="homeservice-item-name">
+                          <a href="#">FAS – Giải pháp tự động hóa
+                            cho nhà máy</a>
+                      </h3>
+                      <div class="c10"></div>
+                      <div class="text-line-5">
+                        Là đối tác của các hãng ABB, Omron, Mitsubishi, Yamaha, ETEK cung cấp giải pháp tự động hóa công nghiệp trong nhà máy với nhiều lĩnh vực: sản xuất...
+                      </div>
+                      <div class="c20"></div>
+                      <div class=""> <a href="" class="btn-xemthem">Xem thêm</a></div>
+                    
+                  </div>
+              </div>
+            </div>
+            <div class="cell-1-2 tab-cell-1-1">
+              <div class="homeservice-item">
+                    <div class="homeservice-item-image">
+                        <a href="#"> <img style="height: 260px; width:100%; object-fit:cover" src="/uploaded/dichvu/item2.png" alt=""></a>
+                    </div>
+                    <div class="homeservice-item-content">
+                        <h3 class="homeservice-item-name">
+                            <a href="#">ETS – Giải pháp thiết bị đào
+                              tạo, dạy nghề</a>
+                        </h3>
+                        <div class="c10"></div>
+                        <div class="text-line-5">
+                          Với gần 20 năm kinh nghiệm và 8 bằng độc quyền kiểu dáng công nghiệp, ETEK là đơn vị uy tín trong cung cấp trọn gói, từ tư vấn đến thiết kế giải pháp tổng thể ...
+</div>
+                        <div class="c20"></div>
+                        <div class=""> <a href="" class="btn-xemthem">Xem thêm</a></div>
+                      
+                    </div>
+                </div>
+              </div>
+              <div class="cell-1-2 tab-cell-1-1">
+                <div class="homeservice-item">
+                      <div class="homeservice-item-image">
+                          <a href="#"> <img style="height: 260px; width:100%; object-fit:cover" src="/uploaded/dichvu/item3.png" alt=""></a>
+                      </div>
+                      <div class="homeservice-item-content">
+                          <h3 class="homeservice-item-name">
+                              <a href="#">LAS – Giải pháp thiết bị
+                                dân sinh</a>
+                          </h3>
+                          <div class="c10"></div>
+                          <div class="text-line-5">
+                            ETEK mang đến giải pháp trong cuộc sống như: bãi đỗ xe tự động, cầu nâng ô tô, cầu nâng xe máy và các phần mềm quản lý chất lượng, để giải quyết các vấn đề...
+                          </div>
+                          <div class="c20"></div>
+                          <div class=""> <a href="" class="btn-xemthem">Xem thêm</a></div>
+                        
+                      </div>
+                  </div>
+                </div>
+                <div class="cell-1-2 tab-cell-1-1">
+                  <div class="homeservice-item">
+                        <div class="homeservice-item-image">
+                            <a href="#"> <img style="height: 260px; width:100%; object-fit:cover" src="/uploaded/dichvu/item4.png" alt=""></a>
+                        </div>
+                        <div class="homeservice-item-content">
+                            <h3 class="homeservice-item-name">
+                                <a href="#">TEKLIFE – Máy bán hàng
+                                  tự động</a>
+                            </h3>
+                            <div class="c10"></div>
+                            <div class="text-line-5">
+                              Máy bán hàng tự động thương hiệu TEKLIFE được phát triển và sản xuất bởi ETEK, cung cấp các loại máy bán hàng đáp ứng nhu cầu kinh doanh đa dạng, hình thức...                                  </div>
+                            <div class="c20"></div>
+                            <div class=""> <a href="" class="btn-xemthem">Xem thêm</a></div>
+                          
+                        </div>
+                    </div>
+                  </div>
+          </div>
+        </div>
+      </div>
+      <div class="homeposter-wrapper">  
+          <img style="max-height: 550px; width: 100%; object-fit: cover;" src="/uploaded/background/poster.png" alt="">
+          <div class="poster-content">
+              <div class="grid">
+                  <div class="flex-container">
+                      <div class="cell-1-2 tab-cell-1-1">
+                          <div class="poster-item">
+                              <div class="homecat-title-sm">
+                                Thông điệp ETEK – 2023
+                                
+                              </div>
+                              <div class="homecat-title">
+                                TƯ DUY MỚI - PHÁT TRIỂN MỚI
+                              </div>
+                              <div class="c20"></div>
+                              <div class="content">
+                                Cập nhật xu hướng công nghệ phù hợp, vận hành theo hệ thống được cải tiến linh hoạt và chuyên nghiệp, thấu hiểu, chân thành, cam kết lợi ích để triển khai nhiều dự án chất lượng hơn trong năm 2023.
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="homeproject-wrapper">
+        <div class="c30"></div>
+        <div class="c20 hide-on-mobile"></div>
+            <div class="grid">
+                <div class="flex-container align-end">
+                    <div class="cell-1-2 tab-cell-1-1">
+                        <div class="homecat-title-sm">
+                            Giới thiệu
+                        </div>
+                        <div class="homecat-title">
+                            Dự án nổi bật
+                        </div>
+                    </div>
+                    <div class="cell-1-2 tab-cell-1-1">
+                        <div class="homecat-intro">
+                            Những dự án là niềm tự hào của chúng tôi
+                        </div>
+                        <div class="c10"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="c30"></div>
+            <div class="homeproject">
+              <div class="flex-container">
+                  <div class=" cell-news-1-4 tab-cell-1-1 homeproject-item ">
+                      <div class="homeproject-name">
+                          <a href="#"> Nhà máy vinfast Hải phòng</a>
+                      </div>
+                      <div class="homeproject-intro text-line-7">
+                         ETEK cung cấp giải pháp tự động hóa trong nhà máy VinFast: dây chuyền lắp ráp động cơ điện; Dây chuyền đóng gói tự động hoàn toàn 16 công đoạn. Hệ thống trạm sạc cho xe ô tô điện, Các dự án trong dây chuyền Hàn nắp pin với Các công đoạn rửa xử lý bề mặt, làm sạch. Ứng dụng các công nghệ Hàn Ma sát, Hàn Mig , mài, đánh bóng và CNC.it. Deserunt magni delectus inventore recusandae nam sit maxime. Quia, debitis. Quod placeat repudiandae laboriosam maxime facilis porro sapiente numquam eveniet corporis quos.
+                      </div>
+                      <div class="c30"></div>
+                      <img style="height: 270px; width: 100%; object-fit: cover;" src="/uploaded/du-an/item1.png" alt="">
+                  </div>
+                  <div class=" cell-news-1-4 tab-cell-1-1 homeproject-item ">
+                    <div class="homeproject-name">
+                        <a href="#"> Nhà máy vinfast Hải phòng</a>
+                    </div>
+                    <div class="homeproject-intro text-line-7">
+                      ETEK cung cấp các ứng dụng robot và giải pháp nhà máy thông minh tại VinES Hà Tĩnh như các ứng dụng hàm xử lý bề mặt vỏ pin, ứng dụng robot kết hợp máy, ứng dụng robot cắt mũ bảo hiểm, hệ thống Delta robot Picking.
+                    </div>
+                    <div class="c30"></div>
+                    <img style="height: 270px; width: 100%; object-fit: cover;" src="/uploaded/du-an/item2.png" alt="">
+                  </div>
+                  <div class=" cell-news-1-4 tab-cell-1-1 homeproject-item ">
+                    <div class="homeproject-name">
+                        <a href="#"> Nhà máy vinfast Hải phòng</a>
+                    </div>
+                    <div class="homeproject-intro text-line-7">
+                       ETEK cung cấp giải pháp tự động hóa trong nhà máy VinFast: dây chuyền lắp ráp động cơ điện; Dây chuyền đóng gói tự động hoàn toàn 16 công đoạn. Hệ thống trạm sạc cho xe ô tô điện, Các dự án trong dây chuyền Hàn nắp pin với Các công đoạn rửa xử lý bề mặt, làm sạch. Ứng dụng các công nghệ Hàn Ma sát, Hàn Mig , mài, đánh bóng và CNC.it. Deserunt magni delectus inventore recusandae nam sit maxime. Quia, debitis. Quod placeat repudiandae laboriosam maxime facilis porro sapiente numquam eveniet corporis quos.
+                    </div>
+                    <div class="c30"></div>
+                    <img style="height: 270px; width: 100%; object-fit: cover;" src="/uploaded/du-an/item3.png" alt="">
+                  </div>
+                  <div class=" cell-news-1-4 tab-cell-1-1 homeproject-item ">
+                    <div class="homeproject-name">
+                        <a href="#"> Nhà máy vinfast Hải phòng</a>
+                    </div>
+                    <div class="homeproject-intro text-line-7">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt magni delectus inventore recusandae nam sit maxime. Quia, debitis. Quod placeat repudiandae laboriosam maxime facilis porro sapiente numquam eveniet corporis quos.
+                    </div>
+                    <div class="c30"></div>
+                    <img style="height: 270px; width: 100%; object-fit: cover;" src="/uploaded/du-an/item4.png" alt="">
+                  </div>
+              </div>
+          </div>
+
+     
+      </div>
+      <div class="homenews-wrapper">
+      
+        <div class="c20 hide-on-mobile"></div>
+        <div class="c30"></div>
+            <div class="grid">
+              <div class="homecat-title">
+                Tin tức nổi bật
+              </div>
+              <div class="c20"></div>
+              <div class="flex-container">
+                  <div class="cell-1-3 tab-cell-1-1">
+                      <div class="homnews-item">
+                          <a href="#" class="img-shine">
+                              <img style="height: 270px; width: 100%; object-fit: cover;" src="/uploaded/tin-tuc/item1.png" alt="">
+                          </a>
+                          <div class="homenews-name">
+                              <a href="#" class="text-line-2"> Robot bốc xếp hàng lên Pallet - ứng dụng Robotic Palletazing
+ </a>
+                          </div>
+                          <div class="homenews-intro text-line-2">
+                            ETEK cung cấp ứng dụng Robot xếp hàng, Robot xếp bao mang lại hiệu quả cao trong khâu đóng gói...
+                          </div>
+                          <div class="c5"></div>
+                          <div class="creatdate">
+                            <i class="far fa-clock"></i> Ngày 22/07/2023
+                          </div>
+                      </div>
+                  </div>
+                  <div class="cell-1-3 tab-cell-1-1">
+                    <div class="homnews-item">
+                        <a href="#" class="img-shine">
+                            <img style="height: 270px; width: 100%; object-fit: cover;" src="/uploaded/tin-tuc/item2.png" alt="">
+                        </a>
+                        <div class="homenews-name">
+                            <a href="#" class="text-line-2"> Robot bốc xếp hàng lên Pallet - ứng dụng Robotic Palletazing
+</a>
+                        </div>
+                        <div class="homenews-intro text-line-2">
+                          ETEK cung cấp ứng dụng Robot xếp hàng, Robot xếp bao mang lại hiệu quả cao trong khâu đóng gói...
+                        </div>
+                        <div class="c5"></div>
+                        <div class="creatdate">
+                          <i class="far fa-clock"></i> Ngày 22/07/2023
+                        </div>
+                    </div>
+                </div>
+                <div class="cell-1-3 tab-cell-1-1">
+                  <div class="homnews-item">
+                      <a href="#" class="img-shine">
+                          <img style="height: 270px; width: 100%; object-fit: cover;" src="/uploaded/tin-tuc/item3.png" alt="">
+                      </a>
+                      <div class="homenews-name">
+                          <a href="#" class="text-line-2"> Robot bốc xếp hàng lên Pallet - ứng dụng Robotic Palletazing
+</a>
+                      </div>
+                      <div class="homenews-intro text-line-2">
+                        ETEK cung cấp ứng dụng Robot xếp hàng, Robot xếp bao mang lại hiệu quả cao trong khâu đóng gói...
+                      </div>
+                      <div class="c5"></div>
+                      <div class="creatdate">
+                        <i class="far fa-clock"></i> Ngày 22/07/2023
+                      </div>
+                  </div>
+              </div>
+              </div>
+        </div>
+        <div class="c20 hide-on-mobile"></div>
+        <div class="c30"></div>
+      </div>
+      
+     <div class="homebooking-wrapper"> 
+      <div class="c30"></div>
+      <div class="c20 hide-on-mobile"></div>
+        <div class="grid">
+           <div class="flex-container">
+              <div class="cell-2-3 tab-cell-1-1">
+                <div class="c30"></div>
+                <div class="homecat-title-sm">
+                  Tham gia
+              </div>
+              <div class="homecat-title">
+                  Cùng chúng tôi
+              </div>
+              <div class="homecat-intro">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+              </div>
+              <div class="c30"></div>
+                <img src="/uploaded/tin-tuc/item4.png" alt="" style="width: 100%; height: auto; object-fit: cover;" class="img-booking">
+              </div>
+              <div class="cell-1-3 tab-cell-1-1">
+
+
+                <img src="/uploaded/tin-tuc/item5.png" alt="" style="width: 100%; height: auto; object-fit: cover;" class="img-booking">
+                <div class="c30"></div>
+                <div class="homebooking-item">
+                  <div class="c20"></div>
+                    <div class="homebooking-name">
+                      Đồng hành cùng ETEK
+                    </div>
+                    <div class="c15"></div>
+                    <div class="homebooking-info">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. 
+                    </div>
+                    <div class="c30"></div>
+                    <div class="">
+                      <a href="#" class="btn-xemthem">Xem thêm <i class="fas fa-angle-right"></i></a>
+                    </div>
+                    <div class="c20"></div>
+                </div>
+              </div>
+           </div>
+           
+        </div>
+        <div class="c30"></div>
+        <div class="c20 hide-on-mobile"></div>
+     </div>
+          
+    <!-- end content -->
+
+    </div>
+    <!-- footer -->
+    <footer class="footer">
+      <div class="c30"></div>
+      <div class="c20 hide-on-mobile"></div>
+      <div class="footer-main">
+          <div class="grid">
+  
+              <div class="flex-container">
+                <div class="cell-1-1">  
+                  <img src="/uploaded/logo/logo-white.png" alt="">
+                 <span class="company-name"> Công ty Cổ phần Giải pháp Tự động hóa ETEK</span>
+                 <div class="c10"></div>
+                </div>
+                  <div class="cell-1-4 tab-cell-1-1">
+  
+  
+                    
+                    
+               
+                      <div class="footer-block" id="boxcolct">
+                        <div class="footer-title footer-title-mobile" rel="ct">
+                          Thông tin liên hệ
+                      </div>
+                          <div class="info"><i class="fal fa-map-marker-alt"></i> Địa chỉ: Số 189 Đường Phan Trọng Tuệ, Xã
+                            Thanh Liệt, H. Thanh Trì, TP. Hà Nội
+                          </div>
+                          <div class="info"><i class="fal fa-map-marker-alt"></i>  VP HCM: Số 1 Lê Đức Thọ, Phường
+                            Tân Thới Hiệp, Q. 12, Tp Hồ Chí Minh.
+                          </div>
+                          <div class="info"><i class="fas fa-phone"></i> 024 3685 7776   *    Fax: 024.36857775</div>
+                            <div class="info"><i class="fal fa-envelope"></i> info@company.com</div>
+                            
+                            <div class="info"><i class="fal fa-globe"></i> company.com</div>
+  
+                          <div class="c5"></div>
+                      </div>		
+                
+  
+  
+  
+                  </div>
+                  <div class="cell-1-4 tab-cell-1-1">
+                    <div class="footer-block">
+                      <div class="footer-title footer-title-mobile" rel="ct">
+                          Lĩnh vực hoạt động
+                      </div>
+                      
+
+
+                      <ul class="menuboxfooter">
+                          <li><a href="/#">Giới thiệu</a></li>
+                          <li><a href="/dich-vu/">Dịch vụ</a></li>
+                          <li><a href="/tin-tuc/">Thông tin</a></li>
+                          <li><a href="/#">Media</a></li>
+                          <li><a href="/kien-thuc-nha-khoa/">Kiến thức nha khoa</a></li>
+                      </ul>
+                      
+          
+                      
+
+                  </div>
+                  </div>
+                  <div class="cell-1-4 tab-cell-1-1">
+                      <div class="footer-block">
+                          <div class="footer-title footer-title-mobile" rel="ct">
+                              Liên kết nhanh
+                          </div>
+                          
+
+  
+                          <ul class="menuboxfooter">
+                              <li><a href="/#">Giới thiệu</a></li>
+                              <li><a href="/dich-vu/">Dịch vụ</a></li>
+                              <li><a href="/tin-tuc/">Thông tin</a></li>
+                              <li><a href="/#">Media</a></li>
+                              <li><a href="/kien-thuc-nha-khoa/">Kiến thức nha khoa</a></li>
+                          </ul>
+                          
+              
+                          
+  
+                      </div>
+                  </div>
+                  
+  
+                  <div class="cell-1-4 tab-cell-1-1">
+                      <div class="footer-block">
+                          <div class="footer-title footer-title-mobile" rel="ct">
+                              Fanpage facebook
+                          </div>
+                          <div class="c5"></div>
+                          <div class="fb-page" data-href="https://www.facebook.com/facebook" data-tabs="timeline" data-width="" data-height="80" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/facebook" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/facebook">Facebook</a></blockquote></div>
+                      </div>
+                  </div>
+  
+  
+              </div>
+              <div class="c30"></div>
+            <div class="footer-copyright">
+            <div class="flex-container align-center">
+              
+              
+                  
+               <div class=""> © Bản quyền thuộc về tpa.com.vn. All Rights Reserved. </div>
+              
+                
+                <ul class="footer-social">
+  
+                  <li class="facebook  hvr-float">
+                    <a href="https://www.facebook.com/nhakhoatienducvp" class="footer-social__item">
+                      <i class="fab fa-facebook-f"></i>
+                    </a>
+                  </li>
+                  <li class="youtube  hvr-float">
+                    <a href="https://www.youtube.com/@drtidd7596" class="footer-social__item">
+                      <i class="fab fa-youtube"></i>
+                    </a>
+                  </li>
+                  <li class="instagram  hvr-float">
+                    <a href="#" class="footer-social__item">
+                      <i class="fab fa-instagram"></i>
+                    </a>
+                  </li>
+                 
+                  
+                  
+                  
+                </ul>
+              </div>
+              
+            </div>
+            <div class="c30"></div>
+                       
+          </div>
+      </div>
+  
+  
+    </footer>
+    <!-- end footer -->
+</div>
+<div id="button-btt">
+<a href="#"><i class="fas fa-angle-left"></i> Back to top</a>
+</div>
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v17.0" nonce="10EzccSx"></script>
+
+  <script src="/js/jquery.fancybox.js"></script>
+ 
+  
+  <script src="/js/script.js"></script>
+
+  <script src="/js/jquery-ui.min.js"></script>
+  <script src="/js/jquery.form.min.js"></script>
+  <script src="/js/jquery.mmenu.min.all.js"></script>
+
+  
+</body>
+
+</html>
